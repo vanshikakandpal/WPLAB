@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset= "UTF-8">
+<STYLE>
+h2{
+background-color: lightsteelblue; PADDING: 5PX 4PX; MARGIN:
+0PX;
+}
+th{
+background-color: rgb(219, 232, 248); PADDING: 5PX 4PX;
+MARGIN: 0PX; border-radius:5px ;
+}
+table{
+border-radius:5px;
+}
+</STYLE>>
+
+<titile>
+REGISTRATION FORM.
+</titile>
+<head>
+<body backgraound-color: green>
+<h2 align="center"> STUDENT REGISTRATION
+FORM.</h2> <br>
+<form action="#" method="post" >
+<table border="1" cellspacing="5" cellpadding="8"
+align="center">
+<tr><th colspan="2">PERSONAL DETAILS</th></tr>
+
+<tr><td> First Name*</td>
+<td><input type="text" name="fname" required
+placeholder="Vanshika"></td>
+</tr>
+
+<tr><td> Last Name*</td>
+<td><input type="text" name="lname" required
+placeholder="Kandpal"></td>
+</tr>
+
+<tr><td> Email*</td>
+<td><input type="email" name="email" required
+placeholder="vanshika1111@gmail.com"></td>
+</tr>
+
+<tr><td> phone*</td>
+<td><input type="tel" name="phone" pattern="[0-
+9]{10}" title="Enter 10 digit number
+placeholder="9876543210""></td>
+</tr>
+
+<tr><th colspan="2">ACCOUNT DETAILS</th></tr>
+
+<tr><td> Username*</td>
+<td><input type="text" name="username" required
+pattern="[A-Z a-z 0-9]{5,15}" title="5-15 letters/numbers
+only"></td>
+</tr>
+
+<tr><td> Password*</td>
+<td><input type="text" name="password" required
+pattern="[&=?.$#@!% A-Z a-z 0-9]{5,15}" title="atleast 8 chars,
+with uppercase, lowercase, numbers, special char"></td>
+</tr>
+
+<tr><td> Confirm password*</td>
+<td><input type="password"
+name="confirm_password" required></td>
+</tr>
+
+<tr><th colspan="2">ADDRESS</th></tr>
+
+<tr><td> Address line 1*</td>
+<td><input type="text" name="addr1" required></td>
+</tr>
+
+<tr><td> Last Name*</td>
+<td><input type="text" name="addr2" required></td>
+</tr>
+
+<tr><td> City*</td>
+<td><input type="text" name="city" required></td>
+</tr>
+
+<tr><td>State*</td>
+<td><select name="state" required>
+<option value="">Select</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Gujrat</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+
+<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharashtra</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Odisha</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+<option>Sikkim</option>
+<option>Tamil Nadu</option>
+<option>Telangana</option>
+<option>Tripura</option>
+<option>Uttarakhand</option>
+<option>Uttar Pradesh</option>
+<option>West Bengal</option>
+</select>
+</td>
+</tr>
+
+<tr><td> ZIP code*</td>
+
+<td><input type="tel" name="zip" pattern="[0-9]{6}"
+title="6 digit valid zip code" required></td>
+</tr>
+
+<tr><th colspan="2">PREFRENCES</th></tr>
+<tr><td>Gender*</td>
+<td>
+<input type="radio" name="gender" value="Male"
+required> Male
+<input type="radio" name="gender" value="Female" >
+Female
+<input type="radio" name="gender" value="Other">
+Other
+</td>
+</tr>
+
+<tr><td>Subscribe Newsletter</td>
+<td><input type="checkbox" name="subscribe">
+Subscribed?</td>
+</tr>
+
+<tr><td>Short Bio</td>
+
+<td><textarea name="bio" placeholder="Type
+short bio." maxlength="200" rows="3"
+cols="30"></textarea></td>
+</tr>
+
+<tr><th colspan="2">TERMS &
+CONDITIONS</th></tr>
+<tr><td colspan="2">
+
+<iframe srcdoc=
+"<h3>Terms and Conditions</h3>
+
+<p>By registering, you agree to provide accurate
+information.
+Password must be kept secure. The website will not
+share your data without consent.</p>"
+
+width="100%" height="120"></iframe><br>
+<input type="checkbox" name="terms" required> I agree
+to the Terms & Conditions
+</td> </tr>
+
+<tr><td colspan="2" align="center">
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</td></tr>
+
+</table>
+
+</form>
+</body>
+</html>
